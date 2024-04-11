@@ -1,0 +1,11 @@
+[package]
+name = "postgres-connection"
+version = "0.1.0"
+edition = "2021"
+authors= ["ravindar-02<ravindar.rathaur@systango.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgres = "0.19.7"
+helper_lib={ path ="/home/ubox76/systango/project_24/helper_lib"}
