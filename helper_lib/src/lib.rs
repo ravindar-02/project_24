@@ -1,5 +1,5 @@
 use std::env;
-use std::result;
+// use std::result;
 
 use dotenv::dotenv;
 pub fn fetch_var_from_env(var_name: &str) -> String {
